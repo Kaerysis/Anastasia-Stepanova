@@ -68,7 +68,18 @@
 количество сохранений
 
 ### Ссылки
-Здесь будет храниться информация о ссылках
+
+Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+[ссылка на руководство по MD](https://paulradzkov.com/2014/markdown_cheatsheet/)
+
+А вот [пример][1] [нескольких][2] [ссылок][id] с разметкой как у сносок. Можно и использовать [короткая запись][] без указания id.
+
+[1]: http://example.com/ "Optional Title Here"
+[2]: http://example.com/some
+[id]: http://example.com/links (Optional Title Here)
+[короткая запись]: http://example.com/short
+
 
 ## Таблицы
 Здесь будет информация о таблицах
